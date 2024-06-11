@@ -1,13 +1,32 @@
-h1{
-    color: blue;
+.container {
+    position: relative;
     text-align: center;
-    font-style: italic;
+    color: white;
+}
 
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    
 }
-img{
-    border-radius: 50%;
-}
-#header{
 
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
 }
-.wrapper{color: brown;}
+
+.bottom-center {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    font-size: xx-large;
+}
+
+    
+
